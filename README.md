@@ -1,0 +1,1 @@
+# excercicioologica.cpp
