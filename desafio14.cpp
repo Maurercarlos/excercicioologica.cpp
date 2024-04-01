@@ -5,5 +5,11 @@
 
 int main(){
 
+int num;
+
+printf("Digite seu número: ")
+scanf("%d", &num);
+
+
 
 }

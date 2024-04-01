@@ -10,14 +10,10 @@ int num;
     printf("Digite um número: ");
     scanf("%d", &num);
 
-    if (&num %3 == 0 && num % 5 == 0); 
-    {
-        printf("1\n");
-    } 
-    else
-    {
-        printf("0\n");
-    }
+    printf("%d\n", ((num % 3 == 0) && (num % 5 == 0)));
+    //mod
+    printf("banana");
+    printf("%d\n", num % 10 == 0);   
    
     return 0;
 }
