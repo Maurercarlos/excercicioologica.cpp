@@ -10,14 +10,12 @@ int num;
     printf("Digite um número: ");
     scanf("%d", &num);
 
-    if (&num > 0 && num % 2 == 0); 
-    {
-        printf("1\n");
-    } 
-    else
-    {
-        printf("0\n");
-    }
+    int resultado;
+
+    resultado = (("%d\n", (num > 0) && (num % 2 == 0)));
+
+    printf("%d\n", resultado);
+
+    return 0; 
    
-    return 0;
 }

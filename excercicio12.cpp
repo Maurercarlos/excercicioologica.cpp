@@ -11,9 +11,6 @@ int num;
     scanf("%d", &num);
 
     printf("%d\n", ((num % 3 == 0) && (num % 5 == 0)));
-    //mod
-    printf("banana");
-    printf("%d\n", num % 10 == 0);   
    
     return 0;
 }

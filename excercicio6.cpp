@@ -10,5 +10,7 @@ int main(){
     printf("Digite o seu ano: ");
     scanf("%d", &num);
 
-    printf("%d\n", )
+    printf("%d\n", (num % 4 == 0) && (num % 100 != 0));
+
+    return 0;
 }

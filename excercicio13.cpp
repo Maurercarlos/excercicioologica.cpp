@@ -3,17 +3,17 @@
 //Escreva um programa que leia um número inteiro representando a 
 //quantidade de horas e converta esse valor para segundos.
 
-int main (){
+int main () {
  
-int horas [20];
-int segundos [30];
+int horas;
+int segundos;
 
 printf("Quantas horas?");
 scanf("%d", &horas);
  
 segundos = horas * 3600;
 
-printf("segundos: %d\n", horas, segundos);
+printf("Sua conversão para segundos fica: %d\n", segundos);
 
 return 0;
     
