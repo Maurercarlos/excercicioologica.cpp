@@ -13,7 +13,7 @@ int main (){
     printf("Digite o seu número: ");
     scanf("%d", &a);
 
-    printf("%d", (a > b) && (a > b) && (a == b)));
+    printf("%d\n", (a > b) && (a < b) && (a == b));
 
     return 0;
 }
