@@ -17,10 +17,10 @@ int main(){
         scanf("%d", &num2);
 
             //Aqui definimos a soma dos dois números.
-            soma = num1 + num2;
+            int soma = num1 + num2;
 
                 //Aqui o programa realiza, a soma dos dois números.
-                printf("soma: %d", num1, num2);
+                printf("soma do %d\n", num1, num2, soma);
 
                 return 0;
 
