@@ -21,7 +21,7 @@ scanf("%d", &num3);
 media = num1 + num2 + num3 / 3;
 
 //Resultado
-printf("media: %.2f\n", media);
+printf("media: %.2d\n", media);
 
 return 0;
 }
