@@ -9,7 +9,6 @@ int main (){
 
     int a;
     int b;
-    int resultado;
 
     printf("Digite o seu número: ");
     scanf("%d", &a);
@@ -18,11 +17,11 @@ int main (){
     scanf("%d", &b);
 
     if (a > b) {
-        printf("a maior que b %d\n", a, b);
+        printf("%d maior que %d\n", a, b);
     } else if (a < b) {
-        printf("a menor que b %d\n", a, b);
+        printf("%d menor que  %d\n", a, b);
     } else (a == b) {
-        printf("a igual b %d\n", a, b);
+        printf("%d igual %d\n", a, b);
     }
     
     return 0;
